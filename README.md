@@ -24,17 +24,17 @@ Using Wireshark, I identified that user credentials were being transmitted in cl
 ## 🛡️ Project Gallery
 
 ### Phase 1: Vulnerability Identification
-![Wireshark Cleartext Audit](Cleartext%20Data.png)
+<img width="642" height="77" alt="image" src="https://github.com/user-attachments/assets/0da2de99-e896-4f2a-af32-70f20abfc319" />
 *Evidence of credentials exposed in an insecure environment.*
 
 ### Phase 2: Cryptographic Implementation
-![OpenSSL Command Line](Screenshot%202026-03-26%20214612.png)
+<img width="365" height="220" alt="37ea2018-3c22-4d67-be4a-132ef77be5d2" src="https://github.com/user-attachments/assets/93181051-5c5a-48d3-ada3-737e9f137f2d" />
 *Generating 2048-bit RSA keys and launching the hardened server.*
 
 ### Phase 3: Traffic Validation
-![TLS 1.3 Encryption](Application%20Data%20Gig.png)
+<img width="1495" height="371" alt="9d4e939d-37bc-470b-b563-5c75ece6c61c" src="https://github.com/user-attachments/assets/919fb5ac-21a2-4f2e-a187-5e938da483b2" />
 *Verification of encrypted Application Data packets via TLS 1.3.*
 
 ### Phase 4: Header Verification
-![HSTS Headers](HSTS%20Security%20Header%20Verification.png)
+<img width="340" height="653" alt="ac8e2170-f6a4-4862-bb58-f06ad6d3b084" src="https://github.com/user-attachments/assets/e39d77cf-4689-4268-aeba-a3461d0b5d12" />
 *Ensuring long-term security with HSTS (Strict-Transport-Security) headers.*
