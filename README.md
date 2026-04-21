@@ -20,3 +20,21 @@ Using Wireshark, I identified that user credentials were being transmitted in cl
 2. Generate certificates: `openssl req -nodes -new -x509 -keyout server.key -out server.cert`
 3. Run the server: `node server.js`
 4. Access via `https://localhost:3443`
+
+## 🛡️ Project Gallery
+
+### Phase 1: Vulnerability Identification
+![Wireshark Cleartext Audit](Cleartext%20Data.png)
+*Evidence of credentials exposed in an insecure environment.*
+
+### Phase 2: Cryptographic Implementation
+![OpenSSL Command Line](Screenshot%202026-03-26%20214612.png)
+*Generating 2048-bit RSA keys and launching the hardened server.*
+
+### Phase 3: Traffic Validation
+![TLS 1.3 Encryption](Application%20Data%20Gig.png)
+*Verification of encrypted Application Data packets via TLS 1.3.*
+
+### Phase 4: Header Verification
+![HSTS Headers](HSTS%20Security%20Header%20Verification.png)
+*Ensuring long-term security with HSTS (Strict-Transport-Security) headers.*
