@@ -38,3 +38,11 @@ Using Wireshark, I identified that user credentials were being transmitted in cl
 ### Phase 4: Header Verification
 <img width="340" height="653" alt="ac8e2170-f6a4-4862-bb58-f06ad6d3b084" src="https://github.com/user-attachments/assets/e39d77cf-4689-4268-aeba-a3461d0b5d12" />
 *Ensuring long-term security with HSTS (Strict-Transport-Security) headers.*
+
+
+
+[Cybersecurity Project 2_ Secure APL Lab (1).pdf](https://github.com/user-attachments/files/26915483/Cybersecurity.Project.2_.Secure.APL.Lab.1.pdf)
+
+
+
+
